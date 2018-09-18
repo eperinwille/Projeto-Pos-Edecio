@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <title>Validação de Senhas</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="senha.jpg" alt="Senha" class="img-fluid mx-auto d-block">
+            </div>
+
+            <div class="col-sm-8">
+                <h1>Validação de Senhas</h1>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Nome:</span>
+                    </div>
+                    <input type="text" class="form-control" id="inNome" autofocus>
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Senha:</span>
+                    </div>
+                    <input type="text" class="form-control" id="inSenha">
+                    <div class="input-group-append">
+                        <input type="button" class="btn btn-primary" value="Validar" id="btValidar">
+                    </div>
+                </div>
+                <h3 class="text-danger font-italic" id="outResposta"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="senha.js"></script>
+</body>
+
+</html>
